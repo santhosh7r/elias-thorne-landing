@@ -141,8 +141,8 @@ export default function Page() {
             </div>
 
             <a href="#work" className="hero__film" data-reveal>
-              <video autoPlay muted loop playsInline poster={U("1574169208507-84376144848b", 1600)}>
-                <source src={VID.drone} type="video/mp4" />
+              <video autoPlay muted loop playsInline preload="auto" poster={U("1574169208507-84376144848b", 1600)}>
+                <source src="/videos/hero.mp4" type="video/mp4" />
               </video>
               <div className="hero__film-grad" />
               <div className="hero__film-bar">
@@ -435,7 +435,9 @@ export default function Page() {
         </div>
         <div className="footer__bottom">
           <span>© 2026 Elias Thorne. All rights reserved.</span>
-          <span>Design concept · Cinematic</span>
+          <span className="footer__credit">
+            Made with Intent by <a href="https://webzyinc.com" target="_blank" rel="noopener noreferrer">Webzy</a>
+          </span>
           <span>Lisbon — 38.7°N</span>
         </div>
       </footer>

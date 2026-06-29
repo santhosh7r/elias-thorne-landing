@@ -400,6 +400,8 @@ a.cblock-link:hover .v{color:var(--gold)}
 .footer__cols a:hover{color:var(--text)}
 .footer__bottom{display:flex;justify-content:space-between;gap:16px;padding-top:26px;border-top:1px solid var(--line);
   font-size:12.5px;color:var(--faint);flex-wrap:wrap}
+.footer__credit a{color:var(--gold);transition:opacity .35s}
+.footer__credit a:hover{opacity:.7}
 
 /* ════════ REVEAL ════════ */
 [data-reveal]{opacity:0;transform:translateY(30px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
