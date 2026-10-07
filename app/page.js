@@ -435,9 +435,6 @@ export default function Page() {
         </div>
         <div className="footer__bottom">
           <span>© 2026 Elias Thorne. All rights reserved.</span>
-          <span className="footer__credit">
-            Made with Intent by <a href="https://webzyinc.com" target="_blank" rel="noopener noreferrer">Webzy</a>
-          </span>
           <span>Lisbon — 38.7°N</span>
         </div>
       </footer>
